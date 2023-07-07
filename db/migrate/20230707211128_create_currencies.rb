@@ -3,7 +3,7 @@ class CreateCurrencies < ActiveRecord::Migration[7.0]
     create_table :currencies do |t|
       t.string :name
       t.string :description
-      t.bigint :maxsupply
+      t.bigint :max_supply
       t.string :currency_symbol
       t.string :slug
 
